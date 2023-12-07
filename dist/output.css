@@ -587,8 +587,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.mt-28 {
-  margin-top: 7rem;
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .mt-8 {
@@ -603,8 +607,8 @@ video {
   height: 1.5rem;
 }
 
-.h-64 {
-  height: 16rem;
+.h-72 {
+  height: 18rem;
 }
 
 .h-full {
@@ -667,6 +671,16 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 144 220 / var(--tw-bg-opacity));
+}
+
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 132 0 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -686,6 +700,18 @@ video {
   text-align: center;
 }
 
+.font-body {
+  font-family: Montserrat, sans-serif;
+}
+
+.font-medula {
+  font-family: "Medula One", sans-serif;
+}
+
+.font-orbit {
+  font-family: "Orbitron", sans-serif;
+}
+
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -694,14 +720,26 @@ video {
   font-size: 30px;
 }
 
+.text-nav {
+  font-size: 1.5rem;;
+}
+
+.text-nav_title {
+  font-size: 1.3rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
-  .md\:m-6 {
-    margin: 1.5rem;
+  .md\:m-4 {
+    margin: 1rem;
   }
 
   .md\:mx-0 {
@@ -717,12 +755,8 @@ video {
     margin-right: 1rem;
   }
 
-  .md\:mt-28 {
-    margin-top: 7rem;
-  }
-
-  .md\:mt-36 {
-    margin-top: 9rem;
+  .md\:mt-32 {
+    margin-top: 8rem;
   }
 
   .md\:max-h-screen {
@@ -745,27 +779,27 @@ video {
     gap: 1.25rem;
   }
 
-  .md\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .md\:text-paragraph {
-    font-size: 1.4rem;;
+    font-size: 1.3rem;;
   }
 
   .md\:text-title {
-    font-size: 6rem;;
+    font-size: 4rem;;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:m-8 {
-    margin: 2rem;
+  .lg\:m-4 {
+    margin: 1rem;
   }
 
-  .lg\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .lg\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
