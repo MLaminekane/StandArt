@@ -147,4 +147,46 @@
     stroke-dasharray: 20 300;
     stroke-dashoffset: -32.42;
   }
+  
+
+  .card {
+    width: 80px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+  }
+
+  .card > .row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .description h4 {
+    text-transform: uppercase;
+  }
+
+  input {
+    display: none;
+  }
+
+  input:checked + label {
+    width: 600px;
+  }
+
+
+  .card[for="c1"] {
+    background-image: url('../dist/images/infographie.jpg');
+  }
+  .card[for="c2"] {
+    background-image: url('../dist/images/impression.jpg');
+  }
+
 }

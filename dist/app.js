@@ -24,7 +24,7 @@ function type() {
       isDeleting = true;
     }
   }
-  setTimeout(type, 200);
+  setTimeout(type, 240);
 }
 type();
 //fin
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
   setTimeout(function() {
     document.getElementById("loader").style.display = "none";
     document.getElementById("content").style.display = "block";
-  }, 2000);
+  }, 1500);
 });
 //fin
 
