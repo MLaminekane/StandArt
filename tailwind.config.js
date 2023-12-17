@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./dist/**/*.{html,js}"],
+  darkMode: 'class',
+  mode: 'jit',
   theme: {
     extend: {},
     fontSize: {
@@ -16,6 +18,8 @@ module.exports = {
       'danger': '#e3342f',
       'black': '#000000',
       'white': '#FFFFFF',
+      'body': `#161A30`,
+      'contact': `#B6BBC4`,
     },
     fontFamily: {
       'display': ['Montserrat'],

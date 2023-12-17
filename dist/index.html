@@ -6,40 +6,48 @@
   <title>StandArt Homepage</title>
   <link rel="stylesheet" href="output.css">
 </head>
-<body class="bg-black font-orbit m-4 md:m-4 lg:m-4 flex flex-col items-center justify-center md:max-h-screen h-full">
 
-  <div class="container mt-32 md:mt-32 mx-auto px-4 md:px-4 lg:px-4 flex flex-col md:flex-col text-white">
-      
-      <div class="left-side flex flex-col md:flex-row">
-        <div class="md:w-7/10 mb-4 md:mb-0 md:mr-4">
-          <h2 class="text-[30px] md:text-title text-white">Stand'art</h2>
-          <p class="md:text-paragraph mt-4 text-[20px] text-white font-body">Votre Partenaire Créatif pour des Solutions Graphiques et d'Impression Exceptionnelles</p>
-        </div>
-        <div class="sm:md:w-3/10 sm:flex:flex-col:justify-center:items-center flex space-y-4 gap-3">
-          <div class="w-44 h-72 bg-white"></div>
-          <div class="w-44 h-72 bg-white"></div>
-        </div>
-      </div>
-    
-      <footer class="flex flex-col md:flex-row gap-4 md:gap-5 mt-8 md:mt-32 text-center class="text-white"
-      class="text-white"">
-        <a href="infographie/infographie.html" class="bg-primary">
-          <div class="w-full md:w-64 flex items-center border-2 border-white mx-auto md:mx-0 py-2 cursor-pointer ">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-16 h-6">
-              <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z" clip-rule="evenodd" />
-            </svg>
-            <p>Infographie</p>
-          </div>
-        </a>
-        <a href="impression/impressions.html" class="bg-secondary">
-          <div class="w-full md:w-64 flex items-center border-2 border-white mx-auto md:mx-0 py-2 cursor-pointer ">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-16 h-6">
-              <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z" clip-rule="evenodd" />
-            </svg>          
-            <p>Impression</p>
-          </div>
-        </a>
-      </footer>
+<body class="bg-body font-orbit m-4 md:m-4 lg:m-4 flex flex-col items-center justify-center md:max-h-screen h-full">
+
+  <div id="loader">
+    <div class="loader">
+      <div class="justify-content-center jimu-primary-loading"></div>
+    </div>
   </div>
+
+  <div id="content">
+    
+    <div class="w-full flex justify-end hover:bg-sky-700">
+        <a id="contact-btn" href="#"
+            class=" bg-contact text-2xl font-bold px-6 py-3 leading-none text-gray-200 border border-gray-800 rounded-lg focus:outline-none focus:shadow-outline bg-gradient-to-b hover:from-indigo-500 from-gray-900 to-black">
+            Contact
+        </a>
+    </div>
+    <div class="container mt-32 md:mt-32 mx-auto px-4 md:px-4 lg:px-4 flex flex-col md:flex-col text-white">
+    
+        <div class="left-side flex flex-col md:flex-row">
+          <div class="md:w-7/10 mb-4 md:mb-0 md:mr-4">
+            <h2 id="typewriter" class="text-[30px] md:text-title text-white">Stand'art</h2>
+            <p class="md:text-paragraph mt-4 text-[20px] text-white font-body">Votre Partenaire Créatif pour des Solutions Graphiques et d'Impression Exceptionnelles</p>
+          </div>
+          <div class="sm:md:w-3/10 sm:flex:flex-col:justify-center:items-center flex space-y-4 gap-3">
+            <div class="w-44 h-72 bg-white"></div>
+            <div class="w-44 h-72 bg-white"></div>
+          </div>
+        </div>
+    
+        <footer class="flex flex-row md:flex-row gap-4 md:gap-5 mt-8 md:mt-28 text-center class="text-white"
+        class="text-white">
+          <a href="infographie/infographie.html">
+            <button class="bg-gradient-to-r from-blue-500 to-red-500 text-white px-4 py-2 text-xl rounded font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate">Infographie</button>
+          </a>
+          <a href="impression/impressions.html">
+            <button class="bg-gradient-to-r from-red-500 to-gray-500 text-white px-4 py-2 text-xl rounded font-medium focus:ring ring-black ring-opacity-10 gradient2 element-to-rotate">Impression</button>
+          </a>
+        </footer>
+    </div>
+  </div>
+
+<script src="app.js"></script>
 </body>
 </html>
