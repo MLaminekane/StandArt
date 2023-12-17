@@ -687,17 +687,8 @@ video {
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .bg-\[\#6d6d6d65\] {
   background-color: #6d6d6d65;
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-body {
@@ -778,21 +769,12 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .text-center {
   text-align: center;
 }
 
 .font-body {
   font-family: Montserrat, sans-serif;
-}
-
-.font-medula {
-  font-family: "Medula One", sans-serif;
 }
 
 .font-orbit {
@@ -805,10 +787,6 @@ video {
 
 .text-\[30px\] {
   font-size: 30px;
-}
-
-.text-nav {
-  font-size: 1.5rem;;
 }
 
 .text-nav_title {
@@ -835,19 +813,14 @@ video {
   line-height: 1;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .text-body {
   --tw-text-opacity: 1;
   color: rgb(22 26 48 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .ring-black {
