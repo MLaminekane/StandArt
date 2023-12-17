@@ -6,34 +6,51 @@
   <title>infographie standArt</title>
   <link rel="stylesheet" href="../../output.css">
 </head>
-
-<body class="bg-black m-4  flex flex-col items-center justify-center md:max-h-screen h-full">
-  <div class="container w-full mx-auto border-2 uppercase" >
-    <nav class="flex items-center justify-center text-white font-medula " style="justify-content: space-between;">
-      <div class="text-nav_title font-orbit">
-        <a href="../../index.html">STAND'ART</a>
-      </div>
-      
-      <div style="padding: 0.7vw;background-color: rgba(128, 128, 128, 0.374);width: 25vw;" class="text-nav">
-        <ul class="flex items-center justify-center w-full uppercase" style="justify-content: space-between;">
-          <li class="font-medula px-4 bg-primary"><a href="../../index.html">accueil</a></li>
-          <li class="font-medula"><a href="../servicesInfo/services.html">services</a></li>
-          <li class="font-medula px-4"><a href="../about/about.html">A PROPOS</a></li>
-        </ul>
-      </div>
-
-      <div class="text-nav_title font-orbit">
-        <a href="./contact.html">CONTACT</a>
+<body class="bg-body md:max-h-screen h-full">
+  <div class="container w-full uppercase">
+    <nav class="text-white" style="width: 100vw;">
+      <div class="container mx-auto">
+          <div class="flex items-center justify-between p-1 md:p-0 md:hidden">
+              <div class="text-2xl font-semibold text-white"><i>stand'art</i></div>
+              <div>
+                <label class="hamburger">
+                  <input type="checkbox" id="menu-button" class="p-4 cursor-pointer">
+                  <svg viewBox="0 0 32 32">
+                    <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                    <path class="line" d="M7 16 27 16"></path>
+                  </svg>
+                </label>
+              </div>
+          </div>
+          <div id="menu" class="hidden md:block">
+              <ul class="items-center p-3 text-lg md:p-0 md:justify-between md:flex" id="menu">
+                <li id="cacher" class="hidden md:block p-4 text-slate-500 hover:text-white text-nav_title font-orbit"><a href="../../index.html">stand'art</a></li>                  
+                <ul class="flex items-center justify-center uppercase space-x-4 text-xl bg-[#6d6d6d65] p-[0.5rem] rounded-lg" >
+                    <li class="font-orbit"><a href="../infographie.html">infographie</a></li>
+                    <li class="font-orbit"><a href="../servicesInfo/services.html">services</a></li>
+                    <li class="font-orbit"><a href="../aboutInfo/about.html">A PROPOS</a></li>
+                  </ul>
+                </li>
+                <div class="text-nav_title font-orbit ">
+                    <a id="contact-btn" href="./contact.html"
+                        class=" bg-primary text-white text-2xl font-bold px-2 py-2 leading-none text-gray-200 border border-gray-800 rounded-lg focus:outline-none focus:shadow-outline bg-gradient-to-b hover:from-indigo-500 from-gray-900 to-black">
+                        Contact
+                    </a>
+                </div>              
+              </ul>
+          </div>
       </div>
     </nav>
-    
-    <div></div>
-
-    <div></div>
-
-
-
+    <div style="border: 1px solid gainsboro;width: 100vw;"></div>
   </div>
+
+  <script>
+        const menubtn = document.getElementById('menu-button');
+        const menu = document.getElementById('menu');
+        menubtn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        })
+  </script>
 </body>
 
 </html>
