@@ -623,44 +623,16 @@ video {
   height: 200px;
 }
 
+.h-\[32vh\] {
+  height: 32vh;
+}
+
 .h-auto {
   height: auto;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[50\] {
-  height: 50;
-}
-
-.h-\[30vh\] {
-  height: 30vh;
-}
-
-.h-\[35vh\] {
-  height: 35vh;
-}
-
-.h-\[3vh\] {
-  height: 3vh;
-}
-
-.h-\[33vh\] {
-  height: 33vh;
-}
-
-.h-\[32vh\] {
-  height: 32vh;
 }
 
 .w-1\/2 {
@@ -1065,11 +1037,11 @@ input:checked + label {
 }
 
 .card[for="c1"] {
-  background-image: url('../dist/images/infographie.jpg');
+  background-image: url('../dist/images/infographie.webp');
 }
 
 .card[for="c2"] {
-  background-image: url('../dist/images/impression.jpg');
+  background-image: url('../dist/images/impression.webp');
 }
 
 .hover\:text-white:hover {
@@ -1184,20 +1156,12 @@ input:checked + label {
     width: 56vw;
   }
 
-  .md\:w-\[93\.5vw\] {
-    width: 93.5vw;
-  }
-
   .md\:w-\[93vw\] {
     width: 93vw;
   }
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:w-1\/2 {
-    width: 50%;
   }
 
   .md\:flex-row {
@@ -1261,10 +1225,6 @@ input:checked + label {
     margin: 1rem;
   }
 
-  .lg\:flex-col {
-    flex-direction: column;
-  }
-
   .lg\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1273,33 +1233,5 @@ input:checked + label {
   .lg\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  @media (min-width: 1280px) {
-    .lg\:xl\:flex-col {
-      flex-direction: column;
-    }
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:flex-col {
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 1024px) {
-  @media (min-width: 1280px) {
-    @media (min-width: 1536px) {
-      .lg\:xl\:2xl\:flex-col {
-        flex-direction: column;
-      }
-    }
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:flex-col {
-    flex-direction: column;
   }
 }
