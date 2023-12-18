@@ -22,12 +22,12 @@
       background-size: 200% 200%;
   }
   .gradient2 {
-    background: linear-gradient(90deg, red, #69818D);
+    background: linear-gradient(90deg, #ff8400, #69818D);
     background-size: 200% 200%;
-}
+  }
 
   .element-to-rotate {
-      animation: gradientChange 4s ease infinite;
+      animation: gradientChange 7s ease infinite;
   }
   .loader {
     position: absolute;
