@@ -1036,14 +1036,6 @@ input:checked + label {
   width: 600px;
 }
 
-.card[for="c1"] {
-  background-image: url('../dist/images/infographie.webp');
-}
-
-.card[for="c2"] {
-  background-image: url('../dist/images/impression.webp');
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));

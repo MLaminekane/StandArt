@@ -182,11 +182,6 @@
   }
 
 
-  .card[for="c1"] {
-    background-image: url('../dist/images/infographie.webp');
-  }
-  .card[for="c2"] {
-    background-image: url('../dist/images/impression.webp');
-  }
+
 
 }
