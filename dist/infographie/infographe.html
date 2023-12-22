@@ -1,57 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>infographe standArt</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-  <link rel="stylesheet" href="../output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StandArt infographe</title>
+    <link rel="stylesheet" href="../output.css">
 </head>
-<body class="bg-body md:max-h-screen h-full">
-  <div class="container w-full uppercase">
-    <nav class="text-white" style="width: 100vw;">
-      <div class="container mx-auto">
-          <div class="flex items-center justify-between p-1 md:p-0 md:hidden">
-            <div class="text-2xl font-semibold text-white"><i><a href="../../index.html">stand'art</a></i></div>
-            <div>
-                <label class="hamburger">
-                  <input type="checkbox" id="menu-button" class="p-4 cursor-pointer">
-                  <svg viewBox="0 0 32 32">
+
+<body class="bg-black px-4">
+
+  <nav class="text-white mx-auto px-4">
+    <div class="flex items-center justify-between p-1 md:p-0 md:hidden">
+        <div class="text-2xl font-semibold text-white"><i><a href="../index.html">stand'art</a></i></div>
+        <div>
+            <label class="hamburger">
+                <input type="checkbox" id="menu-button" class="p-4 cursor-pointer">
+                <svg viewBox="0 0 32 32">
                     <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
                     <path class="line" d="M7 16 27 16"></path>
-                  </svg>
-                </label>
-              </div>
-          </div>
-          <div id="menu" class="hidden md:block">
-              <ul class="items-center sm:flex-col flex p-3 text-lg md:p-0 md:justify-between md:flex" id="menu">
-                <li id="cacher" class="hidden md:block p-4 text-slate-500 hover:text-white text-nav_title font-orbit"><a href="../index.html">stand'art</a></li>                  
-                <ul class="flex items-center justify-center uppercase space-x-4 text-xl bg-[#6d6d6d65] p-[0.5rem] rounded-lg" >
-                    <li class="font-orbit px-4 bg-primary rounded"><a href="infographe.html">infographe</a></li>
-                    <li class="font-orbit"><a href="../impression/impressions.html">impression</a></li>
-                    <li class="font-orbit "><a href="./servicesInfo/services.html">services</a></li>
-                    <li class="font-orbit "><a href="./aboutInfo/about.html">A PROPOS</a></li>
-                  </ul>
-                </li>
-                <div class="text-nav_title font-orbit ">
-                  <a id="contact-btn" href="./contactInfo/contact.html"
-                  class=" text-2xl font-bold px-2 py-2 leading-noneborder ">
-                  Contact
-              </a>
-                </div>              
-              </ul>
-          </div>
+                </svg>
+            </label>
+        </div>
+    </div>
+    <div id="menu" class="hidden md:block">
+        <ul class="items-center text-lg md:p-0 md:justify-between md:flex w-full" id="menu">
+            <li id="hide" class="hidden md:block p-4 text-slate-500 hover:text-white text-nav_title font-orbit"><a href="../index.html">stand'art</a></li>
+            <ul class="flex items-center justify-between uppercase space-x-4 text-xl bg-[#6d6d6d65] p-[0.5rem] rounded-lg">
+                <li class="font-orbit px-4 bg-primary rounded"><a href="impressions.html">infographe</a></li>
+                <li class="font-orbit"><a href="../services/services.html">services</a></li>
+                <li class="font-orbit"><a href="../about/about.html">A PROPOS</a></li>
+            </ul>
+            <div class="text-nav_title font-orbit">
+                <a id="contact-btn" href="../contact/contact.html" class=" text-2xl font-bold px-2 py-2 leading-noneborder ">
+                    Contact
+                </a>
+            </div>
+        </ul>
+    </div>
+  </nav>
+
+  <div style="border: 1px solid gainsboro;"></div>
+
+  <div class="flex flex-col mt-8 px-4 md:px-8 ">
+    <div class="flex flex-col md:flex-row">
+      <div class="md:w-7/10 mb-4 md:mb-0 md:mr-4">
+          <h2 class="text-[20px] md:text-[40px] text-white w-full font-orbit font-semibold uppercase">Impression DE QUALITÉ SUPÉRIEURE : FAITES UNE MARQUE MÉMORABLE</h2>
       </div>
-    </nav>
-    <div style="border: 1px solid gainsboro;width: 100vw;"></div>
+  </div>
+  <div class="flex flex-col md:flex-row mt-8 md:mt-12 h-auto">
+    <div class="md:w-6/10 mb-4 md:mb-0 md:mr-6">
+        <p class="w-full text-justify md:w-full text-[16px] text-white font-body md:overflow-auto">L'impression est l'art de rendre tangible l'immatériel. Avec notre expertise en impression de qualité supérieure, nous transformons vos conceptions numériques en produits physiques qui laissent une empreinte durable. Que ce soit pour des cartes de visite élégantes, des brochures informatives ou des panneaux publicitaires accrocheurs, nous nous engageons à fournir des impressions de qualité exceptionnelle qui mettent en valeur votre professionnalisme et votre souci du détail.</p>
+    </div>
+    <div class="sm:w-full md:w-4/10 sm:flex:flex-col:justify-center:items-center flex gap-1 mt-2">
+        <div class="bg-secondary w-full md:w-36 h-48"></div>
+        <div class="bg-secondary w-full md:w-36 h-48"></div>
+        <div class="bg-secondary w-full md:w-36 h-48"></div>
+    </div>
+  </div>
+  <div class="flex flex-col md:flex-row md:justify-end md:items-center mt-2 gap-1">
+    <div class="bg-secondary w-full h-[32vh]"></div>
+    <div class="sm:w-full sm:flex:flex-col:justify-center:items-center flex gap-1 ">
+        <div id="2" class="bg-secondary w-full md:w-1/2 h-[32vh]"></div>
+        <div id="3" class="bg-secondary w-full md:w-1/2 h-[32vh]"></div>
+    </div>
   </div>
 
   <script>
-        const menubtn = document.getElementById('menu-button');
-        const menu = document.getElementById('menu');
-        menubtn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-        })
+    const menubtn = document.getElementById('menu-button');
+    const menu = document.getElementById('menu');
+    menubtn.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    })
   </script>
 </body>
+
 </html>
