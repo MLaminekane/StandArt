@@ -615,6 +615,14 @@ video {
   margin-top: 0.75rem;
 }
 
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.ml-24 {
+  margin-left: 6rem;
+}
+
 .block {
   display: block;
 }
@@ -1114,6 +1122,10 @@ input:checked + label {
 
   .md\:me-6 {
     margin-inline-end: 1.5rem;
+  }
+
+  .md\:ml-24 {
+    margin-left: 6rem;
   }
 
   .md\:block {
