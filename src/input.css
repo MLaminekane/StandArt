@@ -18,11 +18,11 @@
   }
 
   .gradient {
-      background: linear-gradient(90deg, rgb(64, 64, 218), rgb(59, 59, 98));
+      background: linear-gradient(90deg, #FC7643, rgb(145, 128, 104));
       background-size: 200% 200%;
   }
   .gradient2 {
-    background: linear-gradient(90deg, #ff8400, #69818D);
+    background: linear-gradient(90deg, #3490dc, #727c81);
     background-size: 200% 200%;
   }
 

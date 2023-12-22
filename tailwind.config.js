@@ -7,6 +7,7 @@ module.exports = {
     extend: {},
     fontSize: {
       title: `4rem;`,
+      title_service: `2rem`,
       sous_title: `1rem`,
       paragraph: `1.3rem;`,
       nav: `1.5rem;`,
@@ -16,10 +17,13 @@ module.exports = {
       'primary': '#3490dc',
       'secondary': '#ff8400',
       'danger': '#e3342f',
-      'black': '#000000',
+      'black': '#000814',
       'white': '#FFFFFF',
       'body': `#161A30`,
       'contact': `#B6BBC4`,
+      'info': `#FC7643`,
+      'impr': `#E5E5E5`,
+      'menu': `#429EBD`
     },
     fontFamily: {
       'display': ['Montserrat'],
